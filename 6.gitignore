@@ -1,0 +1,36 @@
+# Ignore sensitive information
+*.key
+*.pem
+*.crt
+*.cer
+*.der
+*.p12
+*.pfx
+*.asc
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore credentials
+credentials.json
+auth.json
+secrets.json
+secret-config.json
+
+# Ignore database files
+*.sqlite
+*.db
+
+# Ignore log files
+*.log
+
+# Ignore any backup files
+*.bak
+*.old
+
+# Ignore any temporary files
+*.tmp
+*.temp
+*.cache
