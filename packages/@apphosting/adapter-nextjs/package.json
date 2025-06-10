@@ -1,6 +1,6 @@
 {
   "name": "@apphosting/adapter-nextjs",
-  "version": "14.0.12",
+  "version": "14.0.14",
   "main": "dist/index.js",
   "description": "Experimental addon to the Firebase CLI to add web framework support",
   "repository": {
@@ -48,7 +48,11 @@
     "yaml": "^2.3.4"
   },
   "peerDependencies": {
+dependabot/npm_and_yarn/npm_and_yarn-48f1159764
     "next": "~15.3.0"
+=======
+    "next": "*"
+main
   },
   "peerDependenciesMeta": {
     "next": {
