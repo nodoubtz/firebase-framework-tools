@@ -48,7 +48,11 @@
     "yaml": "^2.3.4"
   },
   "peerDependencies": {
+dependabot/npm_and_yarn/npm_and_yarn-48f1159764
+    "next": "~15.3.0"
+=======
     "next": "*"
+main
   },
   "peerDependenciesMeta": {
     "next": {
@@ -60,7 +64,7 @@
     "@types/mocha": "*",
     "@types/tmp": "*",
     "mocha": "*",
-    "next": "~14.0.0",
+    "next": "~15.3.0",
     "semver": "*",
     "tmp": "*",
     "ts-mocha": "*",
