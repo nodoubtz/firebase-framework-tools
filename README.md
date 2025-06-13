@@ -1,71 +1,75 @@
 # Firebase Framework Tools
 
-[![NPM Version](https://img.shields.io/npm/v/firebase-frameworks)](https://www.npmjs.com/package/firebase-frameworks)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-**Firebase Framework Tools** is an experimental addon to the Firebase CLI that adds web framework support. This tool aims to simplify and enhance development workflows when using Firebase with popular web frameworks.
+A collection of tools and utilities designed to streamline your development workflow with Firebase across various frameworks. This repository provides scripts, templates, and best practices to help you configure, manage, secure, and optimize your Firebase projects efficiently.
 
 ## Features
 
-- Seamless integration with Firebase CLI.
-- Enhanced support for web frameworks.
-- Simplified setup and deployment processes.
-- Open for contributions to extend compatibility.
+- **Easy Configuration:** Scripts and helpers to bootstrap and configure Firebase in your project.
+- **Error Fixing Utilities:** Automated tools to detect and fix common Firebase-related errors.
+- **Security Helpers:** Guidelines and scripts to help secure your Firebase setup and hide vulnerable code.
+- **Management Scripts:** Tools for managing Firebase resources and environments.
+- **Duplicate Code Detection:** Find and address duplicate code issues in your Firebase integration.
+- **Framework Agnostic:** Designed to work with a range of frameworks using Firebase.
+- **Best Practices:** Reference implementations and documentation based on the latest Firebase standards.
 
-## Installation
+## Getting Started
 
-To use Firebase Framework Tools, you need to have Node.js and the Firebase CLI installed. You can install the package via npm:
+### Prerequisites
 
+- [Node.js](https://nodejs.org/)
+- [Firebase CLI](https://firebase.google.com/docs/cli)
+
+### Installation
+
+Clone the repository:
 ```bash
-npm install -g firebase-frameworks
+git clone https://github.com/nodoubtz/firebase-framework-tools.git
+cd firebase-framework-tools
 ```
 
-## Usage
-
-1. Ensure that you have Firebase CLI installed and authenticated.
-2. Run the following command in your project directory:
-
+Install dependencies:
 ```bash
-firebase frameworks:init
+npm install
 ```
 
-3. Follow the interactive prompts to configure your framework-specific settings.
+### Usage
 
-For more details, check the [official documentation](https://www.npmjs.com/package/firebase-frameworks).
+- Review the scripts and templates in the repository.
+- Customize and run scripts as needed for your project.
 
-## Development
+#### Example (Configuring Firebase):
 
-This repository is forked from the official [FirebaseExtended/firebase-framework-tools](https://github.com/FirebaseExtended/firebase-framework-tools). Contributions are welcome via pull requests.
+```bash
+node scripts/configure-firebase.js
+```
 
-### Getting Started
+#### Example (Finding Duplicate Code):
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/nodoubtz/firebase-framework-tools.git
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start developing your custom features.
+```bash
+node scripts/find-duplicates.js
+```
+
+> **Note:** Always review scripts and configuration files before running to ensure they meet your project requirements and security standards.
 
 ## Contributing
 
-We welcome contributions to improve the project. Please check out the [contributing guidelines](https://github.com/FirebaseExtended/firebase-framework-tools) in the original repository.
+Contributions are welcome! Please open an issue or submit a pull request for any bug fixes, feature requests, or improvements.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -am 'Add new feature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Open a pull request
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
+## Support
 
-This project is based on the original work from [FirebaseExtended/firebase-framework-tools](https://github.com/FirebaseExtended/firebase-framework-tools). Special thanks to the Firebase community for their ongoing support.
-
-## Links
-
-- [NPM Package](https://www.npmjs.com/package/firebase-frameworks)
-- [Original Repository](https://github.com/FirebaseExtended/firebase-framework-tools)
-- [Firebase CLI Documentation](https://firebase.google.com/docs/cli)
+For questions, issues, or project inquiries, please open an issue in this repository.
 
 ---
-Maintained by [nodoubtz](https://github.com/nodoubtz)
+
+> **Security Notice:**  
+> Do not share sensitive credentials or configuration in public issues or pull requests. Always follow Firebase and security best practices to protect your application and data.
